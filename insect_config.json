@@ -1,0 +1,71 @@
+{
+    "prefix": "insect_mos",
+    "dataset": "IIMinsects202",
+    "memory_size": 0,
+    "memory_per_class": 0,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 5,
+    "increment": 5,
+    "model_name": "mos",
+    "backbone_type": "vit_base_patch16_224_mos",
+    "device": ["0"],
+    "seed": [1993],
+    
+    "tuned_epoch": 10,
+    "init_lr": 0.03,
+    "batch_size": 48,
+    "weight_decay": 0.0005,
+    "min_lr": 0,
+    "optimizer": "sgd",
+    "scheduler": "cosine",
+    
+    "crct_epochs": 15,
+    "ca_lr": 0.005,
+    "ca_storage_efficient_method": "covariance",
+    
+    "pretrained": true,
+    "drop": 0.0,
+    "drop_path": 0.0,
+    
+    "# 昆虫特定参数": null,
+    "max_stages": 5,
+    "feat_dim": 512,
+    "stage_loss_weight": 0.3,
+    "proto_momentum": 0.9,
+    "shared_proto_per_stage": 5,
+    "proto_heads": 4,
+    "stage_loss_type": "kl",
+    "vae_weight": 0.2,
+    "temporal_enabled": true,
+    "proto_pool_enabled": true,
+    
+    "# 增强学习参数": null,
+    "stage_predictor": {
+        "hidden_dim": 256,
+        "num_layers": 2,
+        "dropout": 0.1
+    },
+    
+    "temporal_framework": {
+        "num_attention_heads": 8,
+        "ffn_dim": 2048,
+        "max_seq_length": 5,
+        "position_embedding": "learnable"
+    },
+    
+    "proto_pool": {
+        "max_proto_per_class": 10,
+        "shared_momentum": 0.8,
+        "consistency_weight": 0.1,
+        "router_hidden": 256
+    },
+    
+    "# 数据增强参数": null,
+    "stage_augment": {
+        "enabled": true,
+        "mix_up": 0.8,
+        "cutmix": 0.7,
+        "stage_mixup": true
+    }
+}
