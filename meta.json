@@ -1,0 +1,92 @@
+{
+  "class_stage_mapping": {
+      "class_0": {
+          "stage_ids": [1, 4],
+          "folder_name": "Plutella xylostella (Linnaeus)"
+      },
+      "class_1": {
+          "stage_ids": [3, 4],
+          "folder_name": "Lycorma delicatula (White)"
+      },
+      "class_2": {
+          "stage_ids": [3, 4],
+          "folder_name": "Dolycoris baccarum (Linnaeus)"
+      },
+      "class_3": {
+          "stage_ids": [1, 4],
+          "folder_name": "Lema decempunctata Gebler"
+      },
+      "class_4": {
+          "stage_ids": [1, 4],
+          "folder_name": "Papilio xuthus Linnaeus"
+      },
+      "class_5": {
+          "stage_ids": [1, 4],
+          "folder_name": "Helicoverpa armigera (Hübner)"
+      },
+      "class_6": {
+          "stage_ids": [1, 4],
+          "folder_name": "Strongyllodes variegatus (Fairmaire)"
+      },
+      "class_7": {
+          "stage_ids": [3, 4],
+          "folder_name": "Riptortus pedestri (Fabricius)"
+      },
+      "class_8": {
+          "stage_ids": [1, 4],
+          "folder_name": "Spodoptera exigua (Hübner)"
+      },
+      "class_9": {
+          "stage_ids": [1, 4],
+          "folder_name": "Cifuna locuples Walker"
+      },
+      "class_10": {
+          "stage_ids": [3, 4],
+          "folder_name": "Acanthocoris scabe (Linnaeus)"
+      },
+      "class_11": {
+          "stage_ids": [1, 4],
+          "folder_name": "Cnaphalocrocis medinalis (Guenée)"
+      },
+      "class_12": {
+          "stage_ids": [1, 4],
+          "folder_name": "Nezara viridula (Linnaeus)"
+      },
+      "class_13": {
+          "stage_ids": [1, 4],
+          "folder_name": "Naranga aenescens Moore, 1881"
+      },
+      "class_14": {
+          "stage_ids": [3, 4],
+          "folder_name": "Geisha distinctissima (Walker)"
+      },
+      "class_15": {
+          "stage_ids": [3, 4],
+          "folder_name": "Halyomorpha halys (Stål)"
+      },
+      "class_16": {
+          "stage_ids": [1, 4],
+          "folder_name": "Pieris rapae (Linnaeus)"
+      },
+      "class_17": {
+          "stage_ids": [3, 4],
+          "folder_name": "Eurydema dominulus (Scopoli)"
+      },
+      "class_18": {
+          "stage_ids": [3, 4],
+          "folder_name": "Chauliops fallax Scott"
+      },
+      "class_19": {
+          "stage_ids": [1, 4],
+          "folder_name": "Mythimna separata (Walker)"
+      },
+      "class_20": {
+          "stage_ids": [1, 4],
+          "folder_name": "Pontia edusa (Fabricius)"
+      }
+  },
+
+  "global_settings": {
+      "max_stages": 5  
+  }
+}
